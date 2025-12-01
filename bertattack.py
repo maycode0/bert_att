@@ -331,6 +331,7 @@ def attack(feature, tgt_model, mlm_model, tokenizer, k, batch_size, max_length=5
 
 
 def evaluate(features):
+    # use评估判断
     do_use = 0
     use = None
     sim_thres = 0
